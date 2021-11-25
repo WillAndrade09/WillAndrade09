@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vamos contar</title>
+   <style>
+        body{
+            background-color: rgba(82, 30, 30, 0.473);
+            
+        }
+        section{
+            width: 500px;
+            padding : 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 21px 21px 21px 21px;
+            margin: auto;
+            box-shadow: -4px 9px 8px rgba(27, 9, 9, 0.219) ;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            padding: 10px 0px 7px 18px;
+            
+        }
+        #fim{
+          margin: 15px;
+        }
+        #buton{
+            margin :15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Vamos contar</h1>
+    
+    <section>
+           
+        <div>
+            <p>
+                Escreva um numero de 1 a 100
+                <input type="number" name="inicio" id="inicio">
+                <input type="button" value="adicionar" class="buton" onclick="adicionar()">
+            </p>
+        </div>
+        <select name="tabuada" id="seltab" size="10">
+            <option> digite um numero acima </option>
+        </select>
+        <p><input type="button" value="encerrar" class="buton" onclick="finalizar()" ></p>
+        <div id="res"></div> 
+        
+    </section>
+   <script src="contador.js"></script>
+</body>
+</html>

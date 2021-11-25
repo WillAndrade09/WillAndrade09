@@ -1,0 +1,109 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:black ;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: #48C5CE;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+section{
+    padding: 10px;
+    background-image: url(../imagens/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+#formulario{
+    max-width: 231px;
+    background-color: rgba(255, 255, 255, 0.767);
+    padding: 20px;
+    float: right;
+    
+}
+h2{
+    font-size: 16px;
+}
+input, select{
+    margin: 5px;
+    border: none; 
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+}
+.mb{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    background-color:#48C5CE;
+    color:white;
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    background-color:#7af4fd;
+    color:rgb(0, 0, 0);
+    
+}
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../imagens/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;  
+}
+.desc{
+    display: inline-block;
+    color:white;
+    max-width: 40%;
+    margin: 10px;
+}
+.img{
+    max-width: 150px;   
+}
+.desc p, .desc h3{
+    margin-bottom: 15px;
+    margin-left:40px ;
+}
+footer{
+    background-color: rgb(29, 29, 29);
+
+}
+.container2{
+    position: relative;-
+    right: -25%;
+    padding: 10px;
+} 
+.desc h3{
+    font-size: 24px;
+}
+@media screen and (max-width: 938px){
+    #formulario{
+        float:none ;
+        margin: auto;
+        max-width:400px;
+    }
+    .img{
+        position:absolute;
+        right: 100%;
+        padding-top:16px ;
+    }
+  .desc{
+      max-width: 68%;
+  }
+  .container2{
+      padding: 50px;
+      margin: 5px;
+  }
+}
