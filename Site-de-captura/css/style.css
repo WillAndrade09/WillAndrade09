@@ -5,7 +5,7 @@
 }
 body{
     background-color:black ;
-font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     max-width: 1000px;
@@ -81,7 +81,7 @@ footer{
 
 }
 .container2{
-    position: relative;-
+    position: relative;
     right: -25%;
     padding: 10px;
 } 
@@ -106,4 +106,27 @@ footer{
       padding: 50px;
       margin: 5px;
   }
+}
+   
+@media screen and (max-width: 800px){ 
+    .desc{
+      right: 10%;
+        position: relative;
+       max-width: 100%;
+    }
+    .container2{
+        position: relative;
+        left: 8%;
+        padding: 0px;
+         
+    }
+    .img{
+        
+        position: relative;
+        left:28% ;
+        
+    }
+    h3{
+        text-align: center;
+    }
 }
