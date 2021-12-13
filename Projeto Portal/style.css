@@ -1,1 +1,56 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header1{
+    background-color: #303030;
+}
+.nav1{
+    left:90px;
+    position: relative;
+    top: 4px;
+}
+.navword li {
+    list-style: none;
+    display: inline;
+}
+.nav1 a {
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+
+}
+.nav1 a:hover{
+    color:#4283a3;
+}
+.nav2{
+    margin-left:831px ;
+    margin-top:-25px;
+}
+.img{
+    width: 26px;
+    position: relative;
+    top: 9px;
+    padding-right: 2px;
+}
+#pesquisar {
+    min-width: 120px;
+    min-height: 28px;
+    border-radius: 5px;
+    border-style: none;
+}
+.position{
+    position: relative;
+    top: -2px;
+    right: -5px;
+}
+#botao{
+    border: none;
+    width: 26px;
+    position: relative;
+    top:8px ;
+    right: 2px;
+    background-color: red;
+}
 
