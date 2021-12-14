@@ -19,13 +19,14 @@ body{
     width: 50%;
     height: 30px;
     float: right;
-    background-color: pink;
+    margin-top: 2px;
+    
 }
 .topo-left{
     width: 50%;
     height: 30px;
     float: left;   
-    background-color: rgb(255, 0, 43);
+  
 }
 .topo-left ul{
     padding: 0px;
@@ -45,4 +46,26 @@ body{
 }
 .topo-left li .ativo{
     color:#4283a3;
+}
+.img{
+    width: 28px;
+    
+}
+.topo-right a{
+    float: right;
+    margin-right:5px ;
+}
+.topo-right input{
+    float: right;
+}
+#fundo-pesquisar{
+    background-color: red;
+    border-radius: 2px;
+    
+}
+.input{
+    width: 110px;
+    height: 28px;
+    outline: 0;
+    border: rgb(46, 44, 41);
 }
