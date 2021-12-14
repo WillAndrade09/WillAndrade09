@@ -12,7 +12,6 @@ body{
     width: 100%;
     max-width: 1040px;
     height: 30px;
-    
     margin: auto;
 }
 .topo-right{
@@ -47,7 +46,7 @@ body{
 .topo-left li .ativo{
     color:#4283a3;
 }
-.img{
+.topo-right .img{
     width: 28px;
     
 }
@@ -60,7 +59,7 @@ body{
 }
 #fundo-pesquisar{
     background-color: red;
-    border-radius: 2px;
+    border-radius: 3px;
     
 }
 .input{
@@ -68,4 +67,32 @@ body{
     height: 28px;
     outline: 0;
     border: rgb(46, 44, 41);
+    border-radius: 3px;
+}
+.topo2{
+    height: 95px;
+    background-color: cyan;
+}
+.topo2-child{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    height: 95px; 
+    
+}
+.logo{
+    width: 230px;
+    height:90px ;
+    float: left;
+    margin-top: 5px;
+}
+.topo2 .banner{
+    width: 650px;
+    height: 80px;
+    float: right;
+    background-color: crimson;
+    margin-top: 5px;
+}
+.logo .img{
+    width: 230px;
 }
