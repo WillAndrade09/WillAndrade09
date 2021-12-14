@@ -1,56 +1,48 @@
 @charset "UTF-8";
-*{
-    padding: 0px;
+body{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
-.header1{
+.topo{
+    height: 30px;
     background-color: #303030;
 }
-.nav1{
-    left:90px;
-    position: relative;
-    top: 4px;
+.topo-child{
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    
+    margin: auto;
 }
-.navword li {
+.topo-right{
+    width: 50%;
+    height: 30px;
+    float: right;
+    background-color: pink;
+}
+.topo-left{
+    width: 50%;
+    height: 30px;
+    float: left;   
+    background-color: rgb(255, 0, 43);
+}
+.topo-left ul{
+    padding: 0px;
+    margin: 0px;
     list-style: none;
-    display: inline;
 }
-.nav1 a {
+.topo-left li {
+    float:left;
+    margin-left:8px;
+    margin-right:8px;
+    line-height: 30px;
+    height: 30px;
+}
+.topo-left li a{
     text-decoration: none;
-    color:white;
-    padding: 10px;
-
+    color: white;
 }
-.nav1 a:hover{
+.topo-left li .ativo{
     color:#4283a3;
 }
-.nav2{
-    margin-left:831px ;
-    margin-top:-25px;
-}
-.img{
-    width: 26px;
-    position: relative;
-    top: 9px;
-    padding-right: 2px;
-}
-#pesquisar {
-    min-width: 120px;
-    min-height: 28px;
-    border-radius: 5px;
-    border-style: none;
-}
-.position{
-    position: relative;
-    top: -2px;
-    right: -5px;
-}
-#botao{
-    border: none;
-    width: 26px;
-    position: relative;
-    top:8px ;
-    right: 2px;
-    background-color: red;
-}
-
