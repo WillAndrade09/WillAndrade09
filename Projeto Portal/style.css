@@ -1,6 +1,7 @@
 @charset "UTF-8";
-body{
+*{
     margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
@@ -18,7 +19,6 @@ body{
     width: 50%;
     height: 30px;
     float: right;
-    margin-top: 2px;
     
 }
 .topo-left{
@@ -66,33 +66,90 @@ body{
     width: 110px;
     height: 28px;
     outline: 0;
-    border: rgb(46, 44, 41);
+    border: 1px solid rgb(34, 34, 33);
     border-radius: 3px;
 }
 .topo2{
-    height: 95px;
-    background-color: cyan;
+    height: 80px;
 }
 .topo2-child{
     width: 100%;
     max-width: 1040px;
     margin: auto;
-    height: 95px; 
-    
+    height: 80px;
+    margin-top:7px;
 }
 .logo{
     width: 230px;
-    height:90px ;
+    height:80px ;
     float: left;
-    margin-top: 5px;
 }
 .topo2 .banner{
     width: 650px;
     height: 80px;
     float: right;
     background-color: crimson;
-    margin-top: 5px;
+    
 }
 .logo .img{
     width: 230px;
 }
+.menu{
+    background-color: red;
+    height: 40px;
+    margin-top:7px ;
+}
+.menu-child{
+    height: 40px;
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    
+}
+.menu-child > ul > li{
+    list-style: none;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding:0px 7px 0px 7px;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+.menu >.menu-child>ul> li:hover{
+    background-color: rgb(170, 2, 2);
+}
+.menu .ativo{
+    background-color: rgb(170, 2, 2);
+}
+.menu li .submenu{
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+.menu li:hover .submenu{
+   display: block;
+}
+.submenu .submenu-item:hover {
+    background-color: rgb(240, 154, 154);
+}
+.periferico-1{
+    height: 50px;
+    
+}
+.periferico-1-box{
+    height: 40px;
+    width:100% ;
+    max-width: 1040px;
+    
+    margin: auto;
+    padding-top: 10px;
+}
+.periferico-1-box-child{
+    height: 30px;
+    
+}
+
