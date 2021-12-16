@@ -156,11 +156,10 @@ body{
     line-height: 30px;
     border: 1px solid rgba(5, 5, 5, 0.123);
     background-color: white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .left{
     float: left;
-    text-align: left;
 }
 .Ultimas-noticias{
     background-color: red;
@@ -170,7 +169,7 @@ body{
     padding-left: 10px;
     color: white;
     margin-right: 5px;
-    border-radius:5px 0px 0px 5px;
+    border-radius:3px 0px 0px 3px;
 }
 h1{
     font-size: 20px;
