@@ -179,10 +179,6 @@ h1{
     font-size: 20px;
     font-weight: 100;
 }
-.conteiner{
-    width: 1040px;
-    
-}
 .conteiner-child{
     width: 100%;
     max-width: 1040px;
@@ -245,16 +241,27 @@ h1{
     height: 334px;
     float: left;
     background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s linear;
+    background-size: contain;
+    background-position: center;
 }
 #img1{
-    background-image: url(https://pbs.twimg.com/media/CblBD2hUcAAIRTp.jpg);
+    background-image: url();
+}
+#img2{
+    background-image: url();
+    border: none;
+}
+#img3{
+    background-image: url();
+}
+#img4{
+    background-image: url();
 }
 .slide-info{
     height: 70px;
     background-image: url(assets/images/slideshow_bg.png);
     background-position: center;
     background-size:  auto 70px;
+    background-repeat: repeat;
     
 }
