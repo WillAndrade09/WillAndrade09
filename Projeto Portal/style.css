@@ -179,6 +179,10 @@ h1{
     font-size: 20px;
     font-weight: 100;
 }
+.conteiner{
+    width: 1040px;
+    
+}
 .conteiner-child{
     width: 100%;
     max-width: 1040px;
@@ -186,8 +190,6 @@ h1{
 }
 .conteiner-left{
     width:753px;
-    height: 250px;
-    background-color: black;
     float: left;
 }
 .conteiner-right{
@@ -230,4 +232,29 @@ h1{
     overflow: hidden;
     width: 250px;
     height: 250px;
+}
+.slideshow{
+    height: 335px;
+    overflow: hidden;
+}
+.slideshowarea{
+    height: 335px;
+    
+}
+.slide{
+    height: 334px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s linear;
+}
+#img1{
+    background-image: url(https://pbs.twimg.com/media/CblBD2hUcAAIRTp.jpg);
+}
+.slide-info{
+    height: 70px;
+    background-image: url(assets/images/slideshow_bg.png);
+    background-position: center;
+    background-size:  auto 70px;
+    
 }

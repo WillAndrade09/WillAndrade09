@@ -1,6 +1,6 @@
 var slideItem = 0;
 window.onload = function() {
-	setInterval(passarSlide, 2000);
+	setInterval(passarSlide, 5000);
 
 	var slidewidth = document.getElementById("slideshow").offsetWidth;
 	var objs = document.getElementsByClassName("slide");
@@ -18,6 +18,7 @@ function passarSlide() {
 	}
 
 	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+	
 }
 function mudarSlide(pos) {
 	slideItem = pos;
