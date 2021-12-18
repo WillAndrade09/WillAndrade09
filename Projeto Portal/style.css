@@ -60,17 +60,21 @@ body{
 .topo-right input{
     float: right;
 }
-#fundo-pesquisar{
-    background-color: red;
-    border-radius: 3px;
-    
-}
 .input{
-    width: 110px;
+    width: 115px;
     height: 28px;
     outline: 0;
     border: 1px solid rgb(34, 34, 33);
-    border-radius: 3px;
+    border-right: 0px;
+    border-radius:3px 0px 0px 3px;
+}
+.fundo{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    float: right;
+    
 }
 .topo2{
     height: 80px;
