@@ -1,5 +1,5 @@
 const fields = document.querySelectorAll("[required]")
-const vefi = document.getElementById(senha)
+
 function ValidateField(field) {
     // logica para verificar se existem erros
     function verifyErrors() {
@@ -20,6 +20,10 @@ function ValidateField(field) {
             text: {
                 valueMissing: "Por favor, preencha este campo"
             },
+            email: {
+                valueMissing: "Email é obrigatório",
+                typeMismatch: "Por favor, preencha um email válido"
+            }
         }
 
         return messages[field.type][typeError]
@@ -73,16 +77,23 @@ for( field of fields ){
     field.addEventListener("blur", customValidation)
 }
 
-vefi.addEventListener("click", function()
- {
-    vefi = vefi.value
-    console.log (vefi)
-})
-document.querySelector("form")
-.addEventListener("submit", event => {
-    console.log("enviar o formulário")
 
-    // não vai enviar o formulário
-    event.preventDefault()
+
+const btn = document.querySelector("#botao")
+    btn.addEventListener("click" , function(e){
+    e.preventDefault()
+    const num = document.querySelector("#senha")
+    const value = num.value
+   if (value=="maria" || value== "Maria" || value== "Eduarda" || value== "eduarda" || value== "Eu" || value== "eu" || value== "Maria Eduarda" || value== "duda" || value== "meu nenem" || value== "Meu nenem"  ){
+    window.location.href = "index2.html"
+
+   }
+   else {
+    
+    alert("Entrada proibida")
+    
+  }
+       
 })
+   
 
